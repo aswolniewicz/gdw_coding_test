@@ -1,35 +1,35 @@
 body {
   /* I noticed the font was Avenir */
   font-family: "avenir", sans-serif;
-  width: 1100px;
-  margin: auto;
-  justify-content: center;
 }
 
 h2, h4 {
   display: inline;
 }
 
-.jumbotron {
-  vertical-align: top;
-  border-radius: 0px;
+.container-fluid {
+  max-width: 1100px;
 }
 
 #header {
-    height: 125px;
     background-color: #7e87b2;
     color: white;
+    margin-bottom: 1em;
+    padding: 5em 0 1em 1em;
 }
 
 #box {
   height: 250px;
   width: 250px;
   background-color: #80afa5;
-  margin: 0 0 100px 25px;
+  margin: auto;
+  margin-bottom: 1em;
 }
 
 #foot {
   height: 168px;
   background-color: #e4efd1;
   color: #9a4ba6;
+  margin-top: 5em;
+  padding-top: 1em;
 }
