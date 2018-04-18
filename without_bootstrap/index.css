@@ -1,43 +1,48 @@
 body {
   /* I noticed the font was Avenir */
   font-family: "avenir", sans-serif;
-  width: 1100px;
+  max-width: 1100px;
+  height: auto;
   margin: auto;
-  justify-content: center;
 }
 
-h1 {
-  font-family: "avenir", sans-serif;
-  display: inline;
-}
-
-h2 {
-  font-family: "avenir", sans-serif;
-  display: inline;
-}
-
-#head {
+header {
   height: 125px;
+  width: 100%;
   background-color: #7e87b2;
   color: white;
   text-indent: 25px;
-  vertical-align: middle;
   line-height: 125px;
 }
 
-#foot {
-  height: 168px;
-  background-color: #e4efd1;
-  color: #9a4ba6;
-  text-indent: 25px;
-  vertical-align: middle;
-  line-height: 168px;
+h1, h2, h3 {
+  display: inline;
+}
+
+#content {
+  min-height: 365px;
+  max-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 #box {
   height: 250px;
   width: 250px;
   background-color: #80afa5;
-  display: inline-block;
+  float: left;
   margin: 0 0 100px 1em;
+  padding: 0 0 0 0;
+}
+
+footer {
+  height: 168px;
+  width: 100%;
+  background-color: #e4efd1;
+  color: #9a4ba6;
+  text-indent: 25px;
+  line-height: 168px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
